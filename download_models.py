@@ -2,7 +2,7 @@ import os
 import subprocess
 
 URL = "https://app2.cad4share.com/download/p1iikb6x9UxDJHz/ygXeGOlKmAa7L/nnUNet_results.zip"
-TARGET = "/app/models"
+TARGET = "/models"
 
 if not os.path.exists(f"{TARGET}/nnUNet_results"):
     print("⬇️ Baixando models...")
